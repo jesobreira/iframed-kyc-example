@@ -1,0 +1,10 @@
+<iframe src="https://sandboxkyc.capitual.net/sandbox/user_uuid_here?return_url=https://jesobreira.github.io/iframed-kyc-example/finished.html" id='example_iframe' style="width: 640px; height: 480px">
+</iframe>
+
+<script>
+	function kycProcessFinished() {
+		alert('kyc process finished!')
+		// do anything else here, for example, redirecting this page or even hiding the iframe:
+    document.getElementById('example_iframe').style.display = 'none'
+	}
+</script>
